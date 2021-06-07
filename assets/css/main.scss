@@ -91,15 +91,14 @@ margin-top:3em;
 }
 .features-section{
     background: #20272E;
-    color: white;  
+    color: white;
+        
 }
 ul.features-list{
     margin:0;
     padding-left: .1em;
     display:grid;
     grid-template-columns: repeat(auto-fit,minmx(19rem,1fr));
-
-
 
     
     li{
@@ -277,7 +276,7 @@ li.go-premium-cta a{
      }
  
   }   
-
+  
 }
 @media only screen and(min-width:1080px){
     .container{
@@ -301,7 +300,6 @@ li.go-premium-cta a{
             h1{
                 font-size: 3em;
                 width:90%;
-
             }
         }
     }
@@ -328,16 +326,14 @@ li.go-premium-cta a{
                 width:30px;
                 height:30px;
             }
-
         }
-
     }
     .features-section{
         position: relative;
 
     }
     .features-section img{
-        display: block;
+        display:block;
         position: absolute;
         right: 0;
         width: 350px;
@@ -373,30 +369,30 @@ li.go-premium-cta a{
     }
 }
 
-@media only screen and (max-width:1450px){
-    .features-section{
+// @media only screen and (max-width:1450px){
+//     .features-section{
 
 
-        &:before{
-            content:'';
-            position: absolute;
-            width:10%;
-            height:20em;
-            background: var(--primary-color);
-            left:0;
-            top:-4em;
-        }
-        &:after{
-            content:'';
-            position: absolute;
-            width:200%;
-            height:20em;
-            background:url("../../assets/images/dots.svg") no-repeat;
-            left:4.5em;
-            top:2em;
-        }
-    }
-}
+//         &:before{
+//             content:'';
+//             position: absolute;
+//             width:10%;
+//             height:20em;
+//             background: var(--primary-color);
+//             left:0;
+//             top:-4em;
+//         }
+//         &:after{
+//             content:'';
+//             position: absolute;
+//             width:200%;
+//             height:20em;
+//             background:url("../../assets/images/dots.svg")no-repeat;
+//             left:4.5em;
+//             top:2em;
+//         }
+//     }
+// }
 
 
 

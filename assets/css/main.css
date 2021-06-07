@@ -111,7 +111,7 @@ ul.features-list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmx(19rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmx(19rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 }
 
 ul.features-list li {
@@ -374,9 +374,9 @@ nav li a:hover {
   }
 }
 
-@media only screen and (max-width: 1450px) {
+ /* @media only screen and (max-width: 1450px) { 
   .features-section:before {
-    content: '';
+     content: ''; 
     position: absolute;
     width: 10%;
     height: 20em;
@@ -393,5 +393,6 @@ nav li a:hover {
     left: 4.5em;
     top: 2em;
   }
-}
+}  */
+
 /*# sourceMappingURL=main.css.map */
